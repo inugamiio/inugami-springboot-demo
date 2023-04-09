@@ -26,7 +26,7 @@
         <module>inugami-springboot-demo-user-search-api</module>
         <module>inugami-springboot-demo-user-search-core</module>
         <module>inugami-springboot-demo-user-search-infrastructure</module>
-        <module>inugami-springboot-demo-user-search-interface</module>
+        <module>inugami-springboot-demo-user-search-interfaces</module>
         <module>inugami-springboot-demo-user-search-webapp</module>
     </modules>
 </project>

@@ -42,7 +42,7 @@
         </dependency>
         <dependency>
             <groupId>io.inugami.springboot.demo.user.search</groupId>
-            <artifactId>inugami-springboot-demo-user-search-interface</artifactId>
+            <artifactId>inugami-springboot-demo-user-search-interfaces</artifactId>
         </dependency>
 
 

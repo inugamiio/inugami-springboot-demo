@@ -26,7 +26,7 @@
         <module>inugami-springboot-demo-user-api</module>
         <module>inugami-springboot-demo-user-core</module>
         <module>inugami-springboot-demo-user-infrastructure</module>
-        <module>inugami-springboot-demo-user-interface</module>
+        <module>inugami-springboot-demo-user-interfaces</module>
         <module>inugami-springboot-demo-user-webapp</module>
     </modules>
 </project>

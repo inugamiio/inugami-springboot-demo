@@ -14,7 +14,7 @@
     <!-- =======================================================================
     = PROJECT
     ======================================================================== -->
-    <artifactId>inugami-springboot-demo-user-search-interface</artifactId>
+    <artifactId>inugami-springboot-demo-user-search-interfaces</artifactId>
     <packaging>jar</packaging>
 
     <!-- =======================================================================

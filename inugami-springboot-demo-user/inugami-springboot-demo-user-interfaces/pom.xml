@@ -15,7 +15,7 @@
     = PROJECT
     ======================================================================== -->
     <groupId>io.inugami.springboot.demo.user</groupId>
-    <artifactId>inugami-springboot-demo-user-interface</artifactId>
+    <artifactId>inugami-springboot-demo-user-interfaces</artifactId>
     <packaging>jar</packaging>
 
     <!-- =======================================================================
