@@ -26,5 +26,11 @@
             <groupId>io.inugami.springboot.demo.user.search</groupId>
             <artifactId>inugami-springboot-demo-user-search-api</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+
     </dependencies>
 </project>

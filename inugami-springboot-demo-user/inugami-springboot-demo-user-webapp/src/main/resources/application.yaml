@@ -1,1 +1,51 @@
+server:
+  port: 8080
 
+application:
+  name: "inugami-demo-user"
+  groupId: "io.inugami.springboot.demo.user"
+  artifactId: "inugami-springboot-demo-user-webapp"
+  version: "@project.version@"
+  commitId: "@commitId@"
+  commitDate: "@commitDate@"
+  
+  url:
+    activeMq: "tcp://localhost:61616"
+    datasource: "jdbc:h2:mem:testdb"
+
+endpoints:
+  health:
+    sensitive: false
+management:
+  endpoint:
+    health:
+      show-details: "ALWAYS"
+
+spring:
+  activemq:
+    broker-url: "failover:(${application.url.activeMq})"
+  datasource:
+    url: "${application.url.datasource}"
+    username: "sa"
+    password: "sa"
+  
+  jpa:
+    database-platform: "org.hibernate.dialect.H2Dialect"
+    hibernate:
+      ddl-auto: "update"
+      mapping:
+        physical-strategy: "org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy"
+  h2:
+    console:
+      enabled: true
+
+springdoc:
+  swagger-ui:
+    path: "/doc/swagger.html"
+
+inugami:
+  monitoring:
+    exception:
+      show:
+        detail:
+          enabled: true

@@ -1,1 +1,17 @@
+server:
+  port: 8081
+application:
+  name: "inugami-demo-user-search"
+  groupId: "io.inugami.springboot.demo.user.search"
+  artifactId: "inugami-springboot-demo-user-search-webapp"
+  version: "@project.version@"
+  commitId: "@commitId@"
+  commitDate: "@commitDate@"
 
+endpoints:
+  health:
+    sensitive: false
+management:
+  endpoint:
+    health:
+      show-details: "ALWAYS"
