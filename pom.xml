@@ -8,7 +8,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.5</version>
+        <version>2.7.10</version>
         <relativePath/>
     </parent>
 
@@ -30,7 +30,7 @@
         <super.jdk.arg>-parameters</super.jdk.arg>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <super.springboot.skip>true</super.springboot.skip>
-
+        <ch.qos.logback.version>1.2.10</ch.qos.logback.version>
         <inugami.maven.plugin.analysis.project.base.name>io.inugami</inugami.maven.plugin.analysis.project.base.name>
         <inugami.maven.plugin.analysis.writer.neo4j.url>bolt://localhost:7687
         </inugami.maven.plugin.analysis.writer.neo4j.url>
@@ -38,7 +38,7 @@
         <inugami.maven.plugin.analysis.writer.neo4j.password>password
         </inugami.maven.plugin.analysis.writer.neo4j.password>
 
-
+        <com.h2database.version>2.1.214</com.h2database.version>
         <io.github.git-commit-id.version>5.0.0</io.github.git-commit-id.version>
         <io.inugami.version>2.3.0-SNAPSHOT</io.inugami.version>
         <io.inugami.maven.plugin.analysis.version>1.6.3</io.inugami.maven.plugin.analysis.version>
@@ -56,7 +56,10 @@
         <org.projectlombok.version>1.18.26</org.projectlombok.version>
         <org.projectlombok.lombok-mapstruct-binding.version>0.2.0</org.projectlombok.lombok-mapstruct-binding.version>
         <org.slf4j.version>1.7.36</org.slf4j.version>
+        <org.springdoc.version>1.7.0</org.springdoc.version>
+        <org.springframework.boot.version>3.0.5</org.springframework.boot.version>
         <org.springframework.boot.activemq.version>2.7.10</org.springframework.boot.activemq.version>
+
     </properties>
 
 
@@ -73,6 +76,23 @@
     ======================================================================== -->
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>${com.h2database.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${ch.qos.logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${ch.qos.logback.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>io.inugami.springboot.demo.user</groupId>
                 <artifactId>inugami-springboot-demo-user-api</artifactId>
@@ -136,6 +156,12 @@
             </dependency>
 
             <dependency>
+                <groupId>io.inugami</groupId>
+                <artifactId>inugami_commons_test</artifactId>
+                <version>${io.inugami.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>io.inugami.monitoring</groupId>
                 <artifactId>inugami_monitoring_spingboot</artifactId>
                 <version>${io.inugami.version}</version>
@@ -158,6 +184,18 @@
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
                 <version>${org.slf4j.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-ui</artifactId>
+                <version>${org.springdoc.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${org.springframework.boot.version}</version>
             </dependency>
 
             <dependency>
