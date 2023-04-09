@@ -1,0 +1,68 @@
+version: "3"
+services:
+  neo4j:
+    image: neo4j:4.4.4-community
+    ports:
+      - "7474:7474"
+      - "7473:7473"
+      - "7687:7687"
+    expose:
+      - 7474
+      - 7473
+      - 7687
+    environment:
+      - NEO4J_AUTH=neo4j/password
+      - EXTENSION_SCRIPT=/var/lib/neo4j/import/neo4j-bootstrap.sh
+      - NEO4J_dbms_unmanaged__extension__classes=semantics.extension=/rdf
+      - NEO4J_dbms_security_procedures_whitelist=apoc.coll.*,apoc.load.*,semantics.*
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*,semantics.*
+      - NEO4J_apoc_export_file_enabled=true
+      - NEO4J_apoc_import_file_enabled=true
+      - NEO4J_apoc_import_file_use__neo4j__config=true
+    networks:
+      - inugami
+
+  kibana:
+    image: nshou/elasticsearch-kibana
+    ports:
+      - "9200:9200"
+      - "5601:5601"
+    expose:
+      - 9200
+      - 5601
+    networks:
+      - inugami
+
+  cerebro:
+    image: lmenezes/cerebro:0.9.2
+    ports:
+      - "9000:9000"
+    links:
+      - "kibana"
+    networks:
+      - inugami
+
+  logstash:
+    image: logstash:7.8.1
+    ports:
+      - "5044:5044"
+      - "4045:4045"
+      - "9600:9600"
+      - "5045:5045"
+    expose:
+      - 5044
+      - 4045
+      - 9600
+      - 5054
+    volumes:
+      - "./logstash:/usr/share/logstash/pipeline"
+    links:
+      - "kibana"
+    networks:
+      - inugami
+
+
+
+networks:
+  inugami:
+    driver: bridge
