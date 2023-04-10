@@ -13,10 +13,13 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import java.util.Optional;
+
 import static io.inugami.commons.test.UnitTestHelper.assertText;
 import static io.inugami.commons.test.UnitTestHelper.assertThrows;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -67,6 +70,13 @@ public class UserServiceTest {
     public void createUser_withSavingError_shouldThrow() {
         final UserDTO.UserDTOBuilder user = buildUser().toBuilder();
         assertThrows(UserError.USER_CAN_NOT_BE_CREATED, () -> userService.createUser(user.build()));
+    }
+
+    @Test
+    public void createUser_withUserAlreadyExists_shouldThrow() {
+        final UserDTO.UserDTOBuilder user = buildUser().toBuilder();
+        when(userDAO.getUserByEmail(anyString())).thenReturn(Optional.of(UserDTO.builder().build()));
+        assertThrows(UserError.USER_ALREADY_EXISTS, () -> userService.createUser(user.build()));
     }
 
     @Test

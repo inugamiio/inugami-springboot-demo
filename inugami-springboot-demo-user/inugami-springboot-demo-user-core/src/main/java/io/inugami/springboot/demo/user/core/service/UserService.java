@@ -8,6 +8,8 @@ import io.inugami.springboot.demo.user.api.service.IUserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 import static io.inugami.api.exceptions.Asserts.*;
 
 @RequiredArgsConstructor
@@ -29,6 +31,9 @@ public class UserService implements IUserService {
                 () -> assertNotEmpty(UserError.USER_USER_EMAIL_REQUIRED, user.getEmail())
         );
 
+        final Optional<UserDTO> existingUser = userDAO.getUserByEmail(user.getEmail());
+        assertFalse(UserError.USER_ALREADY_EXISTS, existingUser.isPresent());
+
         final UserDTO newUser = userDAO.createUser(user);
         assertNotNull(UserError.USER_CAN_NOT_BE_CREATED, newUser);
 
@@ -43,8 +48,6 @@ public class UserService implements IUserService {
     public UserDTO getUserByID(final long id) {
         assertHigher(UserError.USER_INVALID_ID, 0, id);
         final UserDTO user = userDAO.getUserByID(id);
-
-        assertNotNull(UserError.USER_NOT_FOUND, user);
         return user;
     }
 
