@@ -51,6 +51,7 @@ public class UserService implements IUserService {
         return user;
     }
 
+
     // ========================================================================
     // UPDATE
     // ========================================================================
@@ -58,4 +59,14 @@ public class UserService implements IUserService {
     // ========================================================================
     // DELETE
     // ========================================================================
+    @Override
+    public void deleteByID(final long id, final String email) {
+        assertHigher(UserError.USER_DELETE_INVALID_ID, 0, id);
+        final UserDTO user = getUserByID(id);
+
+        assertNotNull(UserError.USER_DELETE_USER_NOT_FOUND, user);
+        assertEquals(UserError.USER_DELETE_INVALID_EMAIL, user.getEmail(), email);
+        userDAO.deleteByID(id);
+        userEventPublisher.sendDeletedUser(user);
+    }
 }

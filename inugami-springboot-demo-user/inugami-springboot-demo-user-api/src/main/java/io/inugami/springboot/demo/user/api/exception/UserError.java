@@ -27,11 +27,11 @@ public enum UserError implements ErrorCode {
 
 
     USER_USER_ID_FORBIDDEN(newBuilder()
-                                        .errorCode("USER-1_1")
-                                        .statusCode(400)
-                                        .message("can't create user with id")
-                                        .errorTypeFunctional()
-                                        .category(UserError.DOMAIN)),
+                                   .errorCode("USER-1_1")
+                                   .statusCode(400)
+                                   .message("can't create user with id")
+                                   .errorTypeFunctional()
+                                   .category(UserError.DOMAIN)),
 
     USER_USER_LASTNAME_REQUIRED(newBuilder()
                                         .errorCode("USER-1_2")
@@ -55,18 +55,18 @@ public enum UserError implements ErrorCode {
                                      .category(UserError.DOMAIN)),
 
     USER_CAN_NOT_BE_CREATED(newBuilder()
-                                     .errorCode("USER-1_4")
-                                     .statusCode(500)
-                                     .message("can't create user")
-                                     .errorTypeTechnical()
-                                     .category(UserError.DOMAIN)),
+                                    .errorCode("USER-1_4")
+                                    .statusCode(500)
+                                    .message("can't create user")
+                                    .errorTypeTechnical()
+                                    .category(UserError.DOMAIN)),
 
     USER_ALREADY_EXISTS(newBuilder()
-                                    .errorCode("USER-1_5")
-                                    .statusCode(500)
-                                    .message("user already exists")
-                                    .errorTypeFunctional()
-                                    .category(UserError.DOMAIN)),
+                                .errorCode("USER-1_5")
+                                .statusCode(500)
+                                .message("user already exists")
+                                .errorTypeFunctional()
+                                .category(UserError.DOMAIN)),
     // ========================================================================
     // READ
     // ========================================================================
@@ -78,25 +78,25 @@ public enum UserError implements ErrorCode {
                             .category(UserError.DOMAIN)),
 
     USER_NOT_FOUND(newBuilder()
-                            .errorCode("USER-2_1")
-                            .statusCode(400)
-                            .message("user not found")
-                            .errorTypeFunctional()
-                            .category(UserError.DOMAIN)),
-
-    USER_GET_EMAIL_REQUIRED(newBuilder()
-                           .errorCode("USER-2_2")
+                           .errorCode("USER-2_1")
                            .statusCode(400)
-                           .message("user's email required")
+                           .message("user not found")
                            .errorTypeFunctional()
                            .category(UserError.DOMAIN)),
 
+    USER_GET_EMAIL_REQUIRED(newBuilder()
+                                    .errorCode("USER-2_2")
+                                    .statusCode(400)
+                                    .message("user's email required")
+                                    .errorTypeFunctional()
+                                    .category(UserError.DOMAIN)),
+
     USER_CAN_NOT_READ_DATA(newBuilder()
-                           .errorCode("USER-2_3")
-                           .statusCode(500)
-                           .message("error occurs on reading data")
-                           .errorTypeTechnical()
-                           .category(UserError.DOMAIN))
+                                   .errorCode("USER-2_3")
+                                   .statusCode(500)
+                                   .message("error occurs on reading data")
+                                   .errorTypeTechnical()
+                                   .category(UserError.DOMAIN)),
     // ========================================================================
     // UPDATE
     // ========================================================================
@@ -104,7 +104,24 @@ public enum UserError implements ErrorCode {
     // ========================================================================
     // DELETE
     // ========================================================================
-    ;
+    USER_DELETE_INVALID_ID(newBuilder()
+                                   .errorCode("USER-4_0")
+                                   .statusCode(400)
+                                   .message("invalid id")
+                                   .errorTypeFunctional()
+                                   .category(UserError.DOMAIN)),
+    USER_DELETE_USER_NOT_FOUND(newBuilder()
+                                       .errorCode("USER-4_1")
+                                       .statusCode(400)
+                                       .message("user not found")
+                                       .errorTypeFunctional()
+                                       .category(UserError.DOMAIN)),
+    USER_DELETE_INVALID_EMAIL(newBuilder()
+                                      .errorCode("USER-4_2")
+                                      .statusCode(400)
+                                      .message("invalid email")
+                                      .errorTypeFunctional()
+                                      .category(UserError.DOMAIN));
 
     private static final String DOMAIN = "user";
 

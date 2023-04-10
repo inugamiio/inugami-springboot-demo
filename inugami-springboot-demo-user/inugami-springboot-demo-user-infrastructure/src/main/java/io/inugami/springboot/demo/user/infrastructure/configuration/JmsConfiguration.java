@@ -22,9 +22,9 @@ import java.util.List;
 @EnableJms
 @Configuration
 public class JmsConfiguration {
-    public static String QUEUE_USER_CREATED = "user-created";
-    public static String QUEUE_USER_UPDATED = "user-updated";
-    public static String QUEUE_USER_DELETED = "user-deleted";
+    public static final String QUEUE_USER_CREATED = "user-created";
+    public static final String QUEUE_USER_UPDATED = "user-updated";
+    public static final String QUEUE_USER_DELETED = "user-deleted";
 
     @Bean
     public JaxbClassRegister demoEvents() {

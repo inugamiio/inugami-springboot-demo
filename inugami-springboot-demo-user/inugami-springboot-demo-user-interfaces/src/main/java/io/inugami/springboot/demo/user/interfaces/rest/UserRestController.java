@@ -35,4 +35,8 @@ public class UserRestController {
     // ========================================================================
     // DELETE
     // ========================================================================
+    @DeleteMapping(path = "{id}")
+    public void deleteById(@PathVariable final long id, @RequestParam String email) {
+        userService.deleteByID(id, email);
+    }
 }

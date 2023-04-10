@@ -74,6 +74,8 @@ public class UserDAO implements IUserDAO {
 
         return user.isPresent() ? Optional.of(mapper.convert(user.get())) : Optional.empty();
     }
+
+
     // ========================================================================
     // UPDATE
     // ========================================================================
@@ -81,6 +83,10 @@ public class UserDAO implements IUserDAO {
     // ========================================================================
     // DELETE
     // ========================================================================
-
+    @Transactional
+    @Override
+    public void deleteByID(final long id) {
+        repository.deleteById(id);
+    }
 
 }
