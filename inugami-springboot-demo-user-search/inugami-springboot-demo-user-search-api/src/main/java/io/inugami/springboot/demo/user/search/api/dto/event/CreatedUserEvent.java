@@ -1,4 +1,4 @@
-package io.inugami.springboot.demo.user.api.dto.event;
+package io.inugami.springboot.demo.user.search.api.dto.event;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

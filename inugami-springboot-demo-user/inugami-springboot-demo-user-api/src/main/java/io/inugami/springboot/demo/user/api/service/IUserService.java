@@ -21,5 +21,6 @@ public interface IUserService {
     // ========================================================================
     // DELETE
     // ========================================================================
+    void deleteByID(final long id, final String email);
 }
 

@@ -1,4 +1,5 @@
-package io.inugami.springboot.demo.user.api.dto.event;
+
+package io.inugami.springboot.demo.user.search.api.dto.event;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,6 +13,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 @NoArgsConstructor
 @Builder(toBuilder = true)
 @Data
-public class CreatedUserEvent {
+public class UpdatedUserEvent {
     private Long id;
 }

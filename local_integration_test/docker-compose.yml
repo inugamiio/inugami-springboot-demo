@@ -1,5 +1,15 @@
 version: "3"
 services:
+
+  activeMq:
+    image: rmohr/activemq
+    ports:
+      - "61616:61616"
+      - "8161:8161"
+    expose:
+      - 61616
+      - 8161
+
   neo4j:
     image: neo4j:4.4.4-community
     ports:

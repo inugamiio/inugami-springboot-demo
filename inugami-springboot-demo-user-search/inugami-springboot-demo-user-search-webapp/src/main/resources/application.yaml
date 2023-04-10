@@ -8,6 +8,9 @@ application:
   commitId: "@commitId@"
   commitDate: "@commitDate@"
 
+  url:
+    activeMq: "tcp://localhost:61616"
+
 endpoints:
   health:
     sensitive: false
@@ -15,3 +18,17 @@ management:
   endpoint:
     health:
       show-details: "ALWAYS"
+
+spring:
+  activemq:
+    broker-url: "failover:(${application.url.activeMq})"
+    user: ""
+    password : ""
+
+inugami:
+  monitoring:
+    exception:
+      enabled: true
+      show:
+        detail:
+          enabled: true

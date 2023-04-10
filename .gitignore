@@ -45,3 +45,4 @@ dependency-reduced-pom.xml
 *.factorypath
 pom.xml.versionsBackup
 tree.log
+local_integration_test/logs/*.json
