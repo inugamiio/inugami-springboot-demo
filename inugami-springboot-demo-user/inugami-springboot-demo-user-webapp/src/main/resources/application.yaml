@@ -25,7 +25,7 @@ spring:
   activemq:
     broker-url: "failover:(${application.url.activeMq})"
     user: ""
-    password : ""
+    password: ""
   datasource:
     url: "${application.url.datasource}"
     username: "sa"
@@ -46,6 +46,9 @@ springdoc:
     path: "/doc/swagger.html"
 
 inugami:
+  release:
+    note:
+      artifactName: "inugami-springboot-demo-user-webapp.releases"
   monitoring:
     exception:
       enabled: true

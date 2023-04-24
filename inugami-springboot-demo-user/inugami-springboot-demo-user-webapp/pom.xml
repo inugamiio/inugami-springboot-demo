@@ -8,7 +8,7 @@
     <parent>
         <groupId>io.inugami.springboot.demo.user</groupId>
         <artifactId>inugami-springboot-demo-user</artifactId>
-        <version>2.3.0-SNAPSHOT</version>
+        <version>3.0.0-SNAPSHOT</version>
     </parent>
 
     <!-- =======================================================================
@@ -22,6 +22,7 @@
     ======================================================================== -->
     <properties>
         <super.springboot.skip>false</super.springboot.skip>
+        <inugami.maven.plugin.analysis.display.release.note.enabled/>
     </properties>
 
     <!-- =======================================================================
@@ -65,6 +66,11 @@
         <dependency>
             <groupId>io.inugami.monitoring</groupId>
             <artifactId>inugami_monitoring_spingboot</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.inugami.maven.plugin.analysis.front</groupId>
+            <artifactId>inugami-project-analysis-front-springboot</artifactId>
         </dependency>
 
         <dependency>
