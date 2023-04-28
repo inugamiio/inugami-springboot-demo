@@ -23,9 +23,12 @@ spring:
   activemq:
     broker-url: "failover:(${application.url.activeMq})"
     user: ""
-    password : ""
+    password: ""
 
 inugami:
+  release:
+    note:
+      artifactName: "inugami-springboot-demo-user-search-webapp.releases"
   monitoring:
     exception:
       enabled: true
