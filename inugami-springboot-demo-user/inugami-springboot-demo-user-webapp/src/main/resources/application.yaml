@@ -30,7 +30,11 @@ spring:
     url: "${application.url.datasource}"
     username: "sa"
     password: "sa"
-  
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
   jpa:
     database-platform: "org.hibernate.dialect.H2Dialect"
     hibernate:
