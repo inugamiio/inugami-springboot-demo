@@ -31,6 +31,8 @@ public enum UserError implements ErrorCode {
                                    .statusCode(400)
                                    .message("can't create user with id")
                                    .errorTypeFunctional()
+                                   .field("user.id")
+                                   .url("http://localhost:8080/wiki/error/USER-1_1")
                                    .category(UserError.DOMAIN)),
 
     USER_USER_LASTNAME_REQUIRED(newBuilder()

@@ -6,8 +6,8 @@ Tools :
 
 * H2 console : http://localhost:8080/h2-console (jdbc:h2:mem:testdb | sa | sa)
 * Swagger : http://localhost:8080/doc/swagger-ui/index.html
-
-
+* Release note : http://localhost:8080/release-note-app/
+* Neo4J : http://localhost:7474/browser/
 
 Features :
 -------------------------------------------------------------------------------

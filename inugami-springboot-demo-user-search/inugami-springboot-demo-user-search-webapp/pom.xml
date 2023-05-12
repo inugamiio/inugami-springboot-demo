@@ -63,7 +63,7 @@
 
         <dependency>
             <groupId>io.inugami.monitoring</groupId>
-            <artifactId>inugami_monitoring_spingboot</artifactId>
+            <artifactId>inugami_monitoring_springboot</artifactId>
         </dependency>
 
         <dependency>

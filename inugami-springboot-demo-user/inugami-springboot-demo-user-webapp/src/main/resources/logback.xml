@@ -6,6 +6,9 @@
             <encodeAsJson>true</encodeAsJson>
             <mode>logstash</mode>
             <host>http://localhost:5054</host>
+            <!--
+            <file>target/inugami-springboot-demo-user-webapp-%d{yyyy-MM-dd.HH.mm}</file>
+            -->
             <additionalFields>
                 {
                 "additionalField":"test"
@@ -27,6 +30,10 @@
     </appender>
 
     <logger name="io.inugami">
+        <level value="INFO"/>
+    </logger>
+
+    <logger name="org.apache">
         <level value="INFO"/>
     </logger>
     <logger name="org.springframework">
