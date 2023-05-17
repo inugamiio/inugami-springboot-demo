@@ -21,6 +21,10 @@
     <name>${project.groupId}:${project.artifactId}</name>
     <packaging>pom</packaging>
 
+    <issueManagement>
+        <system>github</system>
+        <url>https://api.github.com/repos/inugamiio/inugami-springboot-demo</url>
+    </issueManagement>
 
     <!-- =======================================================================
     = PROPERTIES
@@ -31,18 +35,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <super.springboot.skip>true</super.springboot.skip>
         <ch.qos.logback.version>1.2.10</ch.qos.logback.version>
-        <inugami.maven.plugin.analysis.display.release.note.enabled>false</inugami.maven.plugin.analysis.display.release.note.enabled>
+        <inugami.maven.plugin.analysis.display.release.note.enabled>false
+        </inugami.maven.plugin.analysis.display.release.note.enabled>
         <inugami.maven.plugin.analysis.project.base.name>io.inugami</inugami.maven.plugin.analysis.project.base.name>
         <inugami.maven.plugin.analysis.writer.neo4j.url>bolt://localhost:7687
         </inugami.maven.plugin.analysis.writer.neo4j.url>
         <inugami.maven.plugin.analysis.writer.neo4j.user>neo4j</inugami.maven.plugin.analysis.writer.neo4j.user>
         <inugami.maven.plugin.analysis.writer.neo4j.password>password
         </inugami.maven.plugin.analysis.writer.neo4j.password>
+        <inugami.maven.plugin.analysis.git>true</inugami.maven.plugin.analysis.git>
 
         <com.h2database.version>2.1.214</com.h2database.version>
         <io.github.git-commit-id.version>5.0.0</io.github.git-commit-id.version>
-        <io.inugami.version>3.2.0-SNAPSHOT</io.inugami.version>
-        <io.inugami.maven.plugin.analysis.version>3.1.0-SNAPSHOT</io.inugami.maven.plugin.analysis.version>
+        <io.inugami.version>3.2.1-SNAPSHOT</io.inugami.version>
+        <io.inugami.maven.plugin.analysis.version>3.2.1-SNAPSHOT</io.inugami.maven.plugin.analysis.version>
         <io.inugami.maven.plugin.lifecycle.version>2.0.1</io.inugami.maven.plugin.lifecycle.version>
         <javax.xml.bind.version>2.3.0</javax.xml.bind.version>
         <org.apache.maven.plugins.compiler.version>3.11.0</org.apache.maven.plugins.compiler.version>
@@ -112,7 +118,17 @@
             </dependency>
             <dependency>
                 <groupId>io.inugami.springboot.demo.user</groupId>
-                <artifactId>inugami-springboot-demo-user-interfaces</artifactId>
+                <artifactId>inugami-springboot-demo-user-interfaces-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.inugami.springboot.demo.user</groupId>
+                <artifactId>inugami-springboot-demo-user-interfaces-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.inugami.springboot.demo.user</groupId>
+                <artifactId>inugami-springboot-demo-user-interfaces-feign</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

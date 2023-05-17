@@ -33,5 +33,10 @@
         </dependency>
 
 
+        <dependency>
+            <groupId>io.inugami.springboot.demo.user</groupId>
+            <artifactId>inugami-springboot-demo-user-interfaces-feign</artifactId>
+        </dependency>
+
     </dependencies>
 </project>

@@ -1,5 +1,7 @@
 server:
   port: 8080
+  servlet:
+    context-path: /demo/user
 
 application:
   name: "inugami-demo-user"
@@ -12,6 +14,7 @@ application:
   url:
     activeMq: "tcp://localhost:61616"
     datasource: "jdbc:h2:mem:testdb"
+
 
 endpoints:
   health:
@@ -52,6 +55,7 @@ springdoc:
 inugami:
   release:
     note:
+      #path: /demo/user/release-note-app/
       artifactName: "inugami-springboot-demo-user-webapp.releases"
   monitoring:
     exception:

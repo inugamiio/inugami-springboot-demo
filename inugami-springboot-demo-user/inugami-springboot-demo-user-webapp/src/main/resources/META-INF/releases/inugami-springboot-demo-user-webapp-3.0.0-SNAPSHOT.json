@@ -1043,7 +1043,34 @@
     "scanDate" : "2023-05-13T15:31:24.757866",
     "version" : "3.0.0-SNAPSHOT"
   },
-  "issues" : [ ],
+  "issues" : [{
+     "date" : "2020-11-25T16:00:58Z",
+    "labels": [],
+    "name": "issue-7",
+    "title": "basic issue for test",
+     "url": "https://github.com/inugamiio/inugami-project-analysis-maven-plugin-parent/pull/7"
+  },
+    {
+      "date" : "2020-11-25T16:00:58Z",
+      "labels": ["epic"],
+      "name": "issue-7",
+      "title": "basic issue for test",
+      "url": "https://github.com/inugamiio/inugami-project-analysis-maven-plugin-parent/pull/7"
+    },
+    {
+      "date" : "2020-11-25T16:00:58Z",
+      "labels": ["feature"],
+      "name": "issue-7",
+      "title": "basic issue for test",
+      "url": "https://github.com/inugamiio/inugami-project-analysis-maven-plugin-parent/pull/7"
+    },
+    {
+      "date" : "2020-11-25T16:00:58Z",
+      "labels": ["bug"],
+      "name": "issue-7",
+      "title": "basic issue for test",
+      "url": "https://github.com/inugamiio/inugami-project-analysis-maven-plugin-parent/pull/7"
+    }],
   "mergeRequests" : [ ],
   "projectDependenciesGraph" : {
     "artifacts" : [ {

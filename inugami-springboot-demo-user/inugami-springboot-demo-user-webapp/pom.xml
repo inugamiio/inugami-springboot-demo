@@ -54,7 +54,11 @@
 
         <dependency>
             <groupId>io.inugami.springboot.demo.user</groupId>
-            <artifactId>inugami-springboot-demo-user-interfaces</artifactId>
+            <artifactId>inugami-springboot-demo-user-interfaces-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.inugami.springboot.demo.user</groupId>
+            <artifactId>inugami-springboot-demo-user-interfaces-core</artifactId>
         </dependency>
 
 

@@ -1,6 +1,100 @@
 {
-  "authors" : [ ],
-  "commit" : [ ],
+  "authors" : [ {
+    "email" : "patrickguillerm@gmail.com",
+    "name" : "Patrick Guillerm"
+  }, {
+    "email" : "pguillerm@smartwavesa.com",
+    "name" : "Patrick Guillerm"
+  } ],
+  "commit" : [ {
+    "date" : "2023-04-07T05:53:59",
+    "author" : "Patrick Guillerm",
+    "commitUid" : "df9efd2fb283acc61e43f63699f7a93bbff2093a",
+    "name" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_df9efd2fb283acc61e43f63699f7a93bbff2093a",
+    "commit" : "[2023-04-07T05:53:59][df9efd2fb283acc61e43f63699f7a93bbff2093a][Patrick Guillerm] Initial commit",
+    "message" : "Initial commit",
+    "shortName" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_df9efd2fb283acc61e43f63699f7a93bbff2093a"
+  }, {
+    "date" : "2023-04-09T15:42:11",
+    "author" : "Patrick Guillerm",
+    "commitUid" : "450bb764d774d107d93bc587c48ac03518900fe2",
+    "name" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_450bb764d774d107d93bc587c48ac03518900fe2",
+    "commit" : "[2023-04-09T15:42:11][450bb764d774d107d93bc587c48ac03518900fe2][Patrick Guillerm] FEAT: add skeleton ",
+    "message" : "FEAT: add skeleton ",
+    "shortName" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_450bb764d774d107d93bc587c48ac03518900fe2"
+  }, {
+    "date" : "2023-04-09T15:45:58",
+    "author" : "Patrick Guillerm",
+    "commitUid" : "eac9a27a6dcc9c24584853e0cde15e543e55ad76",
+    "name" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_eac9a27a6dcc9c24584853e0cde15e543e55ad76",
+    "commit" : "[2023-04-09T15:45:58][eac9a27a6dcc9c24584853e0cde15e543e55ad76][Patrick Guillerm] FEAT: add skeleton ",
+    "message" : "FEAT: add skeleton ",
+    "shortName" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_eac9a27a6dcc9c24584853e0cde15e543e55ad76"
+  }, {
+    "date" : "2023-04-09T20:26:49",
+    "author" : "Patrick Guillerm",
+    "commitUid" : "9c81411e9f0002089ddd4a615b2b8dd6cd63dcc6",
+    "name" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_9c81411e9f0002089ddd4a615b2b8dd6cd63dcc6",
+    "commit" : "[2023-04-09T20:26:49][9c81411e9f0002089ddd4a615b2b8dd6cd63dcc6][Patrick Guillerm] FEAT: add skeleton ",
+    "message" : "FEAT: add skeleton ",
+    "shortName" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_9c81411e9f0002089ddd4a615b2b8dd6cd63dcc6"
+  }, {
+    "date" : "2023-04-09T20:29:34",
+    "author" : "Patrick Guillerm",
+    "commitUid" : "914bd7b5ea291d7ef01f6abc603a3f91f9dfe79d",
+    "name" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_914bd7b5ea291d7ef01f6abc603a3f91f9dfe79d",
+    "commit" : "[2023-04-09T20:29:34][914bd7b5ea291d7ef01f6abc603a3f91f9dfe79d][Patrick Guillerm] FEAT: add skeleton ",
+    "message" : "FEAT: add skeleton ",
+    "shortName" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_914bd7b5ea291d7ef01f6abc603a3f91f9dfe79d"
+  }, {
+    "date" : "2023-04-10T07:39:39",
+    "author" : "Patrick Guillerm",
+    "commitUid" : "24186ea1421de092c85d0e0767d387ecad1d5c61",
+    "name" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_24186ea1421de092c85d0e0767d387ecad1d5c61",
+    "commit" : "[2023-04-10T07:39:39][24186ea1421de092c85d0e0767d387ecad1d5c61][Patrick Guillerm] FEAT: implement DAO ",
+    "message" : "FEAT: implement DAO ",
+    "shortName" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_24186ea1421de092c85d0e0767d387ecad1d5c61"
+  }, {
+    "date" : "2023-04-10T13:38:33",
+    "author" : "Patrick Guillerm",
+    "commitUid" : "2aace5b183197b7f4b0d9495d425f393102376f6",
+    "name" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_2aace5b183197b7f4b0d9495d425f393102376f6",
+    "commit" : "[2023-04-10T13:38:33][2aace5b183197b7f4b0d9495d425f393102376f6][Patrick Guillerm] FEAT: publish in activeMQ ",
+    "message" : "FEAT: publish in activeMQ ",
+    "shortName" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_2aace5b183197b7f4b0d9495d425f393102376f6"
+  }, {
+    "date" : "2023-04-10T16:58:59",
+    "author" : "Patrick Guillerm",
+    "commitUid" : "300f3652636a8cfdd8b4ec328cff84c044bdf942",
+    "name" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_300f3652636a8cfdd8b4ec328cff84c044bdf942",
+    "commit" : "[2023-04-10T16:58:59][300f3652636a8cfdd8b4ec328cff84c044bdf942][Patrick Guillerm] #239 : add multi queues listeners ",
+    "message" : "#239 : add multi queues listeners ",
+    "shortName" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_300f3652636a8cfdd8b4ec328cff84c044bdf942"
+  }, {
+    "date" : "2023-04-10T19:25:44",
+    "author" : "Patrick Guillerm",
+    "commitUid" : "77ea2290d12977cade3954531afea6c5f990a131",
+    "name" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_77ea2290d12977cade3954531afea6c5f990a131",
+    "commit" : "[2023-04-10T19:25:44][77ea2290d12977cade3954531afea6c5f990a131][Patrick Guillerm] #239 : add multi queues listeners ",
+    "message" : "#239 : add multi queues listeners ",
+    "shortName" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_77ea2290d12977cade3954531afea6c5f990a131"
+  }, {
+    "date" : "2023-04-24T03:09:35",
+    "author" : "Patrick Guillerm",
+    "commitUid" : "08ae8ea034658eb73246870a2ce25b1713195729",
+    "name" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_08ae8ea034658eb73246870a2ce25b1713195729",
+    "commit" : "[2023-04-24T03:09:35][08ae8ea034658eb73246870a2ce25b1713195729][Patrick Guillerm] add example for inugami 3.0.0 ",
+    "message" : "add example for inugami 3.0.0 ",
+    "shortName" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_08ae8ea034658eb73246870a2ce25b1713195729"
+  }, {
+    "date" : "2023-05-07T09:51:33",
+    "author" : "Patrick Guillerm",
+    "commitUid" : "f23756e76f301c1cbf8b4f1aab7b2db3341ef3c0",
+    "name" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_f23756e76f301c1cbf8b4f1aab7b2db3341ef3c0",
+    "commit" : "[2023-05-07T09:51:33][f23756e76f301c1cbf8b4f1aab7b2db3341ef3c0][Patrick Guillerm] add example for inugami 3.2.0 ",
+    "message" : "add example for inugami 3.2.0 ",
+    "shortName" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar_f23756e76f301c1cbf8b4f1aab7b2db3341ef3c0"
+  } ],
   "customFields" : { },
   "differentials" : {
     "exposedService" : {
@@ -555,9 +649,9 @@
         "artifactId" : "inugami_api",
         "dependencies" : [ ],
         "groupId" : "io.inugami",
-        "hash" : "io.inugami:inugami_api:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami:inugami_api:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami-springboot-demo-user-search-core",
         "dependencies" : [ ],
@@ -583,149 +677,142 @@
         "artifactId" : "inugami_monitoring_springboot_activemq",
         "dependencies" : [ ],
         "groupId" : "io.inugami.monitoring",
-        "hash" : "io.inugami.monitoring:inugami_monitoring_springboot_activemq:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.monitoring:inugami_monitoring_springboot_activemq:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_commons",
         "dependencies" : [ ],
         "groupId" : "io.inugami",
-        "hash" : "io.inugami:inugami_commons:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami:inugami_commons:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_api_core",
         "dependencies" : [ ],
         "groupId" : "io.inugami",
-        "hash" : "io.inugami:inugami_api_core:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami:inugami_api_core:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_commons_spring",
         "dependencies" : [ ],
         "groupId" : "io.inugami",
-        "hash" : "io.inugami:inugami_commons_spring:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami:inugami_commons_spring:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_configuration_tools",
         "dependencies" : [ ],
         "groupId" : "io.inugami",
-        "hash" : "io.inugami:inugami_configuration_tools:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami:inugami_configuration_tools:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_monitoring_core",
         "dependencies" : [ ],
         "groupId" : "io.inugami.monitoring",
-        "hash" : "io.inugami.monitoring:inugami_monitoring_core:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.monitoring:inugami_monitoring_core:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_monitoring_api",
         "dependencies" : [ ],
         "groupId" : "io.inugami.monitoring",
-        "hash" : "io.inugami.monitoring:inugami_monitoring_api:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.monitoring:inugami_monitoring_api:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_monitoring_config",
         "dependencies" : [ ],
         "groupId" : "io.inugami.monitoring",
-        "hash" : "io.inugami.monitoring:inugami_monitoring_config:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.monitoring:inugami_monitoring_config:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_monitoring_providers_log",
         "dependencies" : [ ],
         "groupId" : "io.inugami.monitoring.providers",
-        "hash" : "io.inugami.monitoring.providers:inugami_monitoring_providers_log:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.monitoring.providers:inugami_monitoring_providers_log:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_sensors_default",
         "dependencies" : [ ],
         "groupId" : "io.inugami.monitoring.sensors",
-        "hash" : "io.inugami.monitoring.sensors:inugami_sensors_default:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.monitoring.sensors:inugami_sensors_default:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_monitoring_springboot",
         "dependencies" : [ ],
         "groupId" : "io.inugami.monitoring",
-        "hash" : "io.inugami.monitoring:inugami_monitoring_springboot:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.monitoring:inugami_monitoring_springboot:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_logs_obfuscator",
         "dependencies" : [ ],
         "groupId" : "io.inugami",
-        "hash" : "io.inugami:inugami_logs_obfuscator:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami:inugami_logs_obfuscator:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami-project-analysis-front-springboot",
         "dependencies" : [ ],
         "groupId" : "io.inugami.maven.plugin.analysis.front",
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-springboot:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-springboot:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami-project-analysis-front-core",
         "dependencies" : [ ],
         "groupId" : "io.inugami.maven.plugin.analysis.front",
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-core:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-core:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami-project-analysis-front-api",
         "dependencies" : [ ],
         "groupId" : "io.inugami.maven.plugin.analysis.front",
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-api:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-api:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_core_tools",
         "dependencies" : [ ],
         "groupId" : "io.inugami",
-        "hash" : "io.inugami:inugami_core_tools:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami:inugami_core_tools:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
-      }, {
-        "artifactId" : "inugami_core_cdi",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami",
-        "hash" : "io.inugami:inugami_core_cdi:3.1.0-SNAPSHOT:jar",
-        "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami_configuration",
         "dependencies" : [ ],
         "groupId" : "io.inugami",
-        "hash" : "io.inugami:inugami_configuration:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami:inugami_configuration:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami-project-analysis-maven-plugin-api",
         "dependencies" : [ ],
         "groupId" : "io.inugami.maven.plugin.analysis",
-        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-api:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-api:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami-project-analysis-maven-plugin-annotations",
         "dependencies" : [ ],
         "groupId" : "io.inugami.maven.plugin.analysis",
-        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-annotations:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-annotations:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       }, {
         "artifactId" : "inugami-project-analysis-front-plugins",
         "dependencies" : [ ],
         "groupId" : "io.inugami.maven.plugin.analysis.front",
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.1.0-SNAPSHOT:jar",
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.2.0-SNAPSHOT:jar",
         "type" : "jar",
-        "version" : "3.1.0-SNAPSHOT"
+        "version" : "3.2.0-SNAPSHOT"
       } ],
       "sameValues" : [ ]
     },
@@ -741,7 +828,7 @@
   "gav" : {
     "artifactId" : "inugami-springboot-demo-user-search-webapp",
     "groupId" : "io.inugami.springboot.demo.user.search",
-    "scanDate" : "2023-04-30T17:22:55.162528",
+    "scanDate" : "2023-05-13T15:31:33.898678",
     "version" : "3.0.0-SNAPSHOT"
   },
   "issues" : [ ],
@@ -765,9 +852,9 @@
       "artifactId" : "inugami_api",
       "currentProject" : false,
       "groupId" : "io.inugami",
-      "hash" : "io.inugami:inugami_api:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami:inugami_api:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami-springboot-demo-user-search-core",
       "currentProject" : false,
@@ -793,149 +880,142 @@
       "artifactId" : "inugami_monitoring_springboot_activemq",
       "currentProject" : false,
       "groupId" : "io.inugami.monitoring",
-      "hash" : "io.inugami.monitoring:inugami_monitoring_springboot_activemq:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.monitoring:inugami_monitoring_springboot_activemq:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_commons",
       "currentProject" : false,
       "groupId" : "io.inugami",
-      "hash" : "io.inugami:inugami_commons:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami:inugami_commons:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_api_core",
       "currentProject" : false,
       "groupId" : "io.inugami",
-      "hash" : "io.inugami:inugami_api_core:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami:inugami_api_core:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_commons_spring",
       "currentProject" : false,
       "groupId" : "io.inugami",
-      "hash" : "io.inugami:inugami_commons_spring:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami:inugami_commons_spring:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_configuration_tools",
       "currentProject" : false,
       "groupId" : "io.inugami",
-      "hash" : "io.inugami:inugami_configuration_tools:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami:inugami_configuration_tools:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_monitoring_core",
       "currentProject" : false,
       "groupId" : "io.inugami.monitoring",
-      "hash" : "io.inugami.monitoring:inugami_monitoring_core:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.monitoring:inugami_monitoring_core:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_monitoring_api",
       "currentProject" : false,
       "groupId" : "io.inugami.monitoring",
-      "hash" : "io.inugami.monitoring:inugami_monitoring_api:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.monitoring:inugami_monitoring_api:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_monitoring_config",
       "currentProject" : false,
       "groupId" : "io.inugami.monitoring",
-      "hash" : "io.inugami.monitoring:inugami_monitoring_config:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.monitoring:inugami_monitoring_config:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_monitoring_providers_log",
       "currentProject" : false,
       "groupId" : "io.inugami.monitoring.providers",
-      "hash" : "io.inugami.monitoring.providers:inugami_monitoring_providers_log:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.monitoring.providers:inugami_monitoring_providers_log:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_sensors_default",
       "currentProject" : false,
       "groupId" : "io.inugami.monitoring.sensors",
-      "hash" : "io.inugami.monitoring.sensors:inugami_sensors_default:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.monitoring.sensors:inugami_sensors_default:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_monitoring_springboot",
       "currentProject" : false,
       "groupId" : "io.inugami.monitoring",
-      "hash" : "io.inugami.monitoring:inugami_monitoring_springboot:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.monitoring:inugami_monitoring_springboot:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_logs_obfuscator",
       "currentProject" : false,
       "groupId" : "io.inugami",
-      "hash" : "io.inugami:inugami_logs_obfuscator:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami:inugami_logs_obfuscator:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami-project-analysis-front-springboot",
       "currentProject" : false,
       "groupId" : "io.inugami.maven.plugin.analysis.front",
-      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-springboot:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-springboot:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami-project-analysis-front-core",
       "currentProject" : false,
       "groupId" : "io.inugami.maven.plugin.analysis.front",
-      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-core:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-core:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami-project-analysis-front-api",
       "currentProject" : false,
       "groupId" : "io.inugami.maven.plugin.analysis.front",
-      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-api:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-api:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_core_tools",
       "currentProject" : false,
       "groupId" : "io.inugami",
-      "hash" : "io.inugami:inugami_core_tools:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami:inugami_core_tools:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
-    }, {
-      "artifactId" : "inugami_core_cdi",
-      "currentProject" : false,
-      "groupId" : "io.inugami",
-      "hash" : "io.inugami:inugami_core_cdi:3.1.0-SNAPSHOT:jar",
-      "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami_configuration",
       "currentProject" : false,
       "groupId" : "io.inugami",
-      "hash" : "io.inugami:inugami_configuration:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami:inugami_configuration:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami-project-analysis-maven-plugin-api",
       "currentProject" : false,
       "groupId" : "io.inugami.maven.plugin.analysis",
-      "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-api:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-api:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami-project-analysis-maven-plugin-annotations",
       "currentProject" : false,
       "groupId" : "io.inugami.maven.plugin.analysis",
-      "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-annotations:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-annotations:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     }, {
       "artifactId" : "inugami-project-analysis-front-plugins",
       "currentProject" : false,
       "groupId" : "io.inugami.maven.plugin.analysis.front",
-      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.1.0-SNAPSHOT:jar",
+      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.2.0-SNAPSHOT:jar",
       "type" : "jar",
-      "version" : "3.1.0-SNAPSHOT"
+      "version" : "3.2.0-SNAPSHOT"
     } ],
     "graph" : [ {
       "dependencies" : [ {
@@ -943,7 +1023,7 @@
         "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-api:3.0.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_api:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_api:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
         "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-core:3.0.0-SNAPSHOT:jar"
@@ -955,13 +1035,13 @@
         "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-interfaces:3.0.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.monitoring:inugami_monitoring_springboot:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.monitoring:inugami_monitoring_springboot:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_logs_obfuscator:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_logs_obfuscator:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-springboot:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-springboot:3.2.0-SNAPSHOT:jar"
       } ],
       "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-webapp:3.0.0-SNAPSHOT:jar"
     }, {
@@ -970,7 +1050,7 @@
         "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-api:3.0.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_api:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_api:3.2.0-SNAPSHOT:jar"
       } ],
       "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-core:3.0.0-SNAPSHOT:jar"
     }, {
@@ -979,7 +1059,7 @@
         "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-api:3.0.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_api:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_api:3.2.0-SNAPSHOT:jar"
       } ],
       "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-infrastructure:3.0.0-SNAPSHOT:jar"
     }, {
@@ -988,129 +1068,120 @@
         "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-api:3.0.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_api:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_api:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.monitoring:inugami_monitoring_springboot_activemq:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.monitoring:inugami_monitoring_springboot_activemq:3.2.0-SNAPSHOT:jar"
       } ],
       "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-interfaces:3.0.0-SNAPSHOT:jar"
     }, {
       "dependencies" : [ {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_api:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_api:3.2.0-SNAPSHOT:jar"
       } ],
       "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-api:3.0.0-SNAPSHOT:jar"
     }, {
       "dependencies" : [ {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_commons:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_commons:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_commons_spring:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_commons_spring:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.monitoring:inugami_monitoring_core:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.monitoring:inugami_monitoring_core:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.monitoring:inugami_monitoring_springboot:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.monitoring:inugami_monitoring_springboot:3.2.0-SNAPSHOT:jar"
       } ],
-      "hash" : "io.inugami.monitoring:inugami_monitoring_springboot_activemq:3.1.0-SNAPSHOT:jar"
+      "hash" : "io.inugami.monitoring:inugami_monitoring_springboot_activemq:3.2.0-SNAPSHOT:jar"
     }, {
       "dependencies" : [ {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_commons:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_commons:3.2.0-SNAPSHOT:jar"
       } ],
-      "hash" : "io.inugami:inugami_logs_obfuscator:3.1.0-SNAPSHOT:jar"
+      "hash" : "io.inugami:inugami_logs_obfuscator:3.2.0-SNAPSHOT:jar"
     }, {
       "dependencies" : [ {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_api_core:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_api_core:3.2.0-SNAPSHOT:jar"
       } ],
-      "hash" : "io.inugami:inugami_commons:3.1.0-SNAPSHOT:jar"
+      "hash" : "io.inugami:inugami_commons:3.2.0-SNAPSHOT:jar"
     }, {
       "dependencies" : [ {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_commons_spring:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_commons_spring:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.monitoring:inugami_monitoring_core:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.monitoring:inugami_monitoring_core:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.monitoring.providers:inugami_monitoring_providers_log:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.monitoring.providers:inugami_monitoring_providers_log:3.2.0-SNAPSHOT:jar"
       } ],
-      "hash" : "io.inugami.monitoring:inugami_monitoring_springboot:3.1.0-SNAPSHOT:jar"
+      "hash" : "io.inugami.monitoring:inugami_monitoring_springboot:3.2.0-SNAPSHOT:jar"
     }, {
       "dependencies" : [ {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_configuration_tools:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_configuration_tools:3.2.0-SNAPSHOT:jar"
       } ],
-      "hash" : "io.inugami:inugami_commons_spring:3.1.0-SNAPSHOT:jar"
+      "hash" : "io.inugami:inugami_commons_spring:3.2.0-SNAPSHOT:jar"
     }, {
       "dependencies" : [ {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.monitoring:inugami_monitoring_api:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.monitoring:inugami_monitoring_api:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.monitoring:inugami_monitoring_config:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.monitoring:inugami_monitoring_config:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.monitoring.providers:inugami_monitoring_providers_log:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.monitoring.providers:inugami_monitoring_providers_log:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.monitoring.sensors:inugami_sensors_default:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.monitoring.sensors:inugami_sensors_default:3.2.0-SNAPSHOT:jar"
       } ],
-      "hash" : "io.inugami.monitoring:inugami_monitoring_core:3.1.0-SNAPSHOT:jar"
+      "hash" : "io.inugami.monitoring:inugami_monitoring_core:3.2.0-SNAPSHOT:jar"
     }, {
       "dependencies" : [ {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.monitoring:inugami_monitoring_api:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.monitoring:inugami_monitoring_api:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-core:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-core:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.2.0-SNAPSHOT:jar"
       } ],
-      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-springboot:3.1.0-SNAPSHOT:jar"
+      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-springboot:3.2.0-SNAPSHOT:jar"
     }, {
       "dependencies" : [ {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-api:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-api:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.2.0-SNAPSHOT:jar"
       } ],
-      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-core:3.1.0-SNAPSHOT:jar"
+      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-core:3.2.0-SNAPSHOT:jar"
     }, {
       "dependencies" : [ {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_core_tools:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_core_tools:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-api:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_configuration:3.2.0-SNAPSHOT:jar"
       }, {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-annotations:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-api:3.2.0-SNAPSHOT:jar"
+      }, {
+        "consume" : [ "lib" ],
+        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-annotations:3.2.0-SNAPSHOT:jar"
       } ],
-      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-api:3.1.0-SNAPSHOT:jar"
+      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-api:3.2.0-SNAPSHOT:jar"
     }, {
       "dependencies" : [ {
         "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_core_tools:3.1.0-SNAPSHOT:jar"
+        "hash" : "io.inugami:inugami_core_tools:3.2.0-SNAPSHOT:jar"
       } ],
-      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.1.0-SNAPSHOT:jar"
-    }, {
-      "dependencies" : [ {
-        "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_core_cdi:3.1.0-SNAPSHOT:jar"
-      } ],
-      "hash" : "io.inugami:inugami_core_tools:3.1.0-SNAPSHOT:jar"
-    }, {
-      "dependencies" : [ {
-        "consume" : [ "lib" ],
-        "hash" : "io.inugami:inugami_configuration:3.1.0-SNAPSHOT:jar"
-      } ],
-      "hash" : "io.inugami:inugami_core_cdi:3.1.0-SNAPSHOT:jar"
+      "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.2.0-SNAPSHOT:jar"
     } ]
   }
 }
