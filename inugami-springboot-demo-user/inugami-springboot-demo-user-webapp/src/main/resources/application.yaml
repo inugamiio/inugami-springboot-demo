@@ -55,6 +55,10 @@ springdoc:
 inugami:
   release:
     note:
+      custom:
+        css:
+          enabled: true
+          path: "META-INF/css/demo-custom.css"
       #path: /demo/user/release-note-app/
       artifactName: "inugami-springboot-demo-user-webapp.releases"
   monitoring:
