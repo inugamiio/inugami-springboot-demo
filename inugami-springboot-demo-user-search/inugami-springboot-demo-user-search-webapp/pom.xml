@@ -54,7 +54,10 @@
             <groupId>io.inugami.springboot.demo.user.search</groupId>
             <artifactId>inugami-springboot-demo-user-search-interfaces</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>io.inugami.springboot.demo.user</groupId>
+            <artifactId>inugami-springboot-demo-user-interfaces-feign</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>io.inugami</groupId>
