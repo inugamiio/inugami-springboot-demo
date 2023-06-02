@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "15911e10-3038-460a-88a7-33ca55f9fb73",
+		"_postman_id": "2c69fdaa-926c-4a4c-9c11-66ae6745cf91",
 		"name": "inugami-demo",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "6890148"
@@ -14,16 +14,25 @@
 					"item": [
 						{
 							"name": "inugami-springboot-demo-user-webapp",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"pm.environment.set(\"user_url\",\"http://localhost:8080/demo/user\")"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"request": {
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:8080/actuator/health",
-									"protocol": "http",
+									"raw": "{{user_url}}/actuator/health",
 									"host": [
-										"localhost"
+										"{{user_url}}"
 									],
-									"port": "8080",
 									"path": [
 										"actuator",
 										"health"
@@ -36,7 +45,33 @@
 				},
 				{
 					"name": "infrastructure",
-					"item": []
+					"item": [
+						{
+							"name": "logstash",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"additionalField\":\"test\",\"threadName\":\"main\",\"loggerName\":\"io.inugami.springboot.demo.user.webapp.InugamiDemoUser\",\"level\":\"INFO\",\"levelPriority\":20000,\"timestamp\":1685696740530,\"date\":\"2023-06-02T09:05:40.853633033\",\"message\":\"Starting InugamiDemoUser using Java 17.0.2 on pguillerm-Latitude-7490 with PID 68763 (/home/pguillerm/dev/workspaces/inugami/inugami-springboot-demo/inugami-springboot-demo-user/inugami-springboot-demo-user-webapp/target/classes started by pguillerm in /home/pguillerm/dev/workspaces/inugami/inugami-springboot-demo)\"}\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:5054",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5054"
+								}
+							},
+							"response": []
+						}
+					]
 				},
 				{
 					"name": "interfaces",
@@ -44,6 +79,104 @@
 						{
 							"name": "rest",
 							"item": [
+								{
+									"name": "bad_request",
+									"item": [
+										{
+											"name": "[xxx] get user",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "x-device-identifier",
+														"value": "{{deviceIdentifier}}",
+														"type": "text"
+													},
+													{
+														"key": "x-correlation-id",
+														"value": "{{correlationId}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{user_url}}/user/123456",
+													"host": [
+														"{{user_url}}"
+													],
+													"path": [
+														"user",
+														"123456"
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "[xxx] create user",
+											"event": [
+												{
+													"listen": "prerequest",
+													"script": {
+														"exec": [
+															""
+														],
+														"type": "text/javascript"
+													}
+												},
+												{
+													"listen": "test",
+													"script": {
+														"exec": [
+															""
+														],
+														"type": "text/javascript"
+													}
+												}
+											],
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "x-device-identifier",
+														"value": "{{deviceIdentifier}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"lastname\":\"smith\"\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{user_url}}/user",
+													"host": [
+														"{{user_url}}"
+													],
+													"path": [
+														"user"
+													]
+												}
+											},
+											"response": []
+										}
+									]
+								},
 								{
 									"name": "create user",
 									"event": [
@@ -83,7 +216,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"firstname\":\"john\",\n    \"lastname\":\"smith\",\n    \"email\":\"john.smith1@inugami.io\"\n}",
+											"raw": "{\n    \"firstname\":\"john\",\n    \"lastname\":\"smith\",\n    \"email\":\"john.smith5@inugami.io\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -91,12 +224,10 @@
 											}
 										},
 										"url": {
-											"raw": "http://localhost:8080/user",
-											"protocol": "http",
+											"raw": "{{user_url}}/user",
 											"host": [
-												"localhost"
+												"{{user_url}}"
 											],
-											"port": "8080",
 											"path": [
 												"user"
 											]
@@ -133,12 +264,10 @@
 											}
 										},
 										"url": {
-											"raw": "http://localhost:8080/user/{{userId}}",
-											"protocol": "http",
+											"raw": "{{user_url}}/user/{{userId}}",
 											"host": [
-												"localhost"
+												"{{user_url}}"
 											],
-											"port": "8080",
 											"path": [
 												"user",
 												"{{userId}}"
@@ -159,12 +288,10 @@
 											}
 										],
 										"url": {
-											"raw": "http://localhost:8080/user/{{userId}}?email={{email}}",
-											"protocol": "http",
+											"raw": "{{user_url}}/user/{{userId}}?email={{email}}",
 											"host": [
-												"localhost"
+												"{{user_url}}"
 											],
-											"port": "8080",
 											"path": [
 												"user",
 												"{{userId}}"
@@ -222,7 +349,53 @@
 					"item": [
 						{
 							"name": "rest",
-							"item": []
+							"item": [
+								{
+									"name": "index user",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "x-device-identifier",
+												"value": "{{deviceIdentifier}}",
+												"type": "text"
+											},
+											{
+												"key": "x-correlation-id",
+												"value": "{{correlationId}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8081/search/user/index/1",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8081",
+											"path": [
+												"search",
+												"user",
+												"index",
+												"1"
+											]
+										}
+									},
+									"response": []
+								}
+							]
 						}
 					]
 				}
