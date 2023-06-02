@@ -13,7 +13,7 @@
       "deletedValues" : [ ],
       "newValues" : [ {
         "consumeContentType" : "application/json",
-        "consumers" : [ ],
+        "consumers" : [ "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-infrastructure:3.0.0-SNAPSHOT:jar" ],
         "contentType" : "application/json",
         "methods" : [ "io.inugami.springboot.demo.user.interfaces.rest.UserRestController.createUser" ],
         "name" : "331f6bb57bca35dcf5e77b919c5a833dc072a21fa04cebbb3221ef52aa89dce8f63cfc7aa5ae6cfa918c29c42529a34ae19ef14a4ad01923f9ce2333e4ddc4ee",
@@ -25,7 +25,7 @@
         "uri" : "/user/",
         "verb" : "POST"
       }, {
-        "consumers" : [ ],
+        "consumers" : [ "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-infrastructure:3.0.0-SNAPSHOT:jar" ],
         "methods" : [ "io.inugami.springboot.demo.user.interfaces.rest.UserRestController.deleteById" ],
         "name" : "260485e4e2a249ebbbd0c36aa584024ac9fe7bdeeb9baf76649949c1a2169113d3fa938975e5e7eeefdda77ef7f99b88423e801d9b54148d5611ca866fa35626",
         "producers" : [ "io.inugami.springboot.demo.user:inugami-springboot-demo-user-interfaces-core:3.0.0-SNAPSHOT:jar" ],
@@ -34,7 +34,7 @@
         "uri" : "/user/{id}",
         "verb" : "DELETE"
       }, {
-        "consumers" : [ ],
+        "consumers" : [ "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-infrastructure:3.0.0-SNAPSHOT:jar" ],
         "methods" : [ "io.inugami.springboot.demo.user.interfaces.rest.UserRestController.getUserById" ],
         "name" : "17a4d67ae72ec12d4432ab0cd734719fc4482e5734a76141b34224fdf2f7d7807b98cdd7aca2fda3c9b65a5a6d6091b606e98e55218cb04c2307fe19bc883361",
         "producers" : [ "io.inugami.springboot.demo.user:inugami-springboot-demo-user-interfaces-core:3.0.0-SNAPSHOT:jar" ],
@@ -784,7 +784,7 @@
   "gav" : {
     "artifactId" : "inugami-springboot-demo-user-webapp",
     "groupId" : "io.inugami.springboot.demo.user",
-    "scanDate" : "2023-05-18T13:56:07.774505",
+    "scanDate" : "2023-06-02T14:05:17.273550119",
     "version" : "3.0.0-SNAPSHOT"
   },
   "issues" : [ {
@@ -930,6 +930,13 @@
       "type" : "jar",
       "version" : "3.0.0-SNAPSHOT"
     }, {
+      "artifactId" : "inugami-springboot-demo-user-search-infrastructure",
+      "currentProject" : false,
+      "groupId" : "io.inugami.springboot.demo.user.search",
+      "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-infrastructure:3.0.0-SNAPSHOT:jar",
+      "type" : "jar",
+      "version" : "3.0.0-SNAPSHOT"
+    }, {
       "artifactId" : "inugami_logs_obfuscator",
       "currentProject" : false,
       "groupId" : "io.inugami",
@@ -1069,6 +1076,9 @@
       }, {
         "consume" : [ "lib" ],
         "hash" : "io.inugami.springboot.demo.user:inugami-springboot-demo-user-interfaces-api:3.0.0-SNAPSHOT:jar"
+      }, {
+        "consume" : [ "Rest" ],
+        "hash" : "io.inugami.springboot.demo.user.search:inugami-springboot-demo-user-search-infrastructure:3.0.0-SNAPSHOT:jar"
       } ],
       "hash" : "io.inugami.springboot.demo.user:inugami-springboot-demo-user-interfaces-core:3.0.0-SNAPSHOT:jar"
     }, {

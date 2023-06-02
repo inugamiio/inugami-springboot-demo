@@ -10,29 +10,9 @@ services:
       - 61616
       - 8161
 
-  neo4j:
-    image: neo4j:4.4.4-community
-    ports:
-      - "7474:7474"
-      - "7473:7473"
-      - "7687:7687"
-    expose:
-      - 7474
-      - 7473
-      - 7687
-    environment:
-      - NEO4J_AUTH=neo4j/password
-      - EXTENSION_SCRIPT=/var/lib/neo4j/import/neo4j-bootstrap.sh
-      - NEO4J_dbms_unmanaged__extension__classes=semantics.extension=/rdf
-      - NEO4J_dbms_security_procedures_whitelist=apoc.coll.*,apoc.load.*,semantics.*
-      - NEO4J_dbms_security_procedures_unrestricted=apoc.*,semantics.*
-      - NEO4J_apoc_export_file_enabled=true
-      - NEO4J_apoc_import_file_enabled=true
-      - NEO4J_apoc_import_file_use__neo4j__config=true
-    networks:
-      - inugami
 
-  kibana:
+
+  elasticsearch:
     image: nshou/elasticsearch-kibana
     ports:
       - "9200:9200"
@@ -48,7 +28,7 @@ services:
     ports:
       - "9000:9000"
     links:
-      - "kibana"
+      - "elasticsearch"
     networks:
       - inugami
 
@@ -59,6 +39,7 @@ services:
       - "4045:4045"
       - "9600:9600"
       - "5045:5045"
+      - "5054:5054"
     expose:
       - 5044
       - 4045
@@ -67,7 +48,7 @@ services:
     volumes:
       - "./logstash:/usr/share/logstash/pipeline"
     links:
-      - "kibana"
+      - "elasticsearch"
     networks:
       - inugami
 

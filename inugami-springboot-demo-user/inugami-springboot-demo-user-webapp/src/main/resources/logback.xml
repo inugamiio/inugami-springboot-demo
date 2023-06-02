@@ -47,6 +47,23 @@
         <level value="OFF"/>
     </logger>
 
+    <logger name="com.zaxxer">
+        <level value="INFO"/>
+    </logger>
+
+    <logger name="org.hibernate">
+        <level value="INFO"/>
+    </logger>
+
+    <logger name="org.springframework">
+        <level value="INFO"/>
+    </logger>
+
+    <logger name="_org.springframework">
+        <level value="INFO"/>
+    </logger>
+
+
     <logger name="org.eclipse.jetty">
         <level value="WARN"/>
         <appender-ref ref="STDOUT"/>

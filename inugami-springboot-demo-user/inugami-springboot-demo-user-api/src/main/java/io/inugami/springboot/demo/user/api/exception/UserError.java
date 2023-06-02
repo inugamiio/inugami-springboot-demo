@@ -40,6 +40,7 @@ public enum UserError implements ErrorCode {
                                         .statusCode(400)
                                         .message("user's lastname required")
                                         .errorTypeFunctional()
+                                        .field("user.lastname")
                                         .category(UserError.DOMAIN)),
 
     USER_USER_FIRSTNAME_REQUIRED(newBuilder()
@@ -47,6 +48,7 @@ public enum UserError implements ErrorCode {
                                          .statusCode(400)
                                          .message("user's firstname required")
                                          .errorTypeFunctional()
+                                         .field("user.firstname")
                                          .category(UserError.DOMAIN)),
 
     USER_USER_EMAIL_REQUIRED(newBuilder()
@@ -54,6 +56,7 @@ public enum UserError implements ErrorCode {
                                      .statusCode(400)
                                      .message("user's email required")
                                      .errorTypeFunctional()
+                                     .field("user.email")
                                      .category(UserError.DOMAIN)),
 
     USER_CAN_NOT_BE_CREATED(newBuilder()
