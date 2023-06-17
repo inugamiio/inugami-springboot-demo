@@ -95,6 +95,7 @@
         "artifact" : "io.inugami.springboot.demo.user:inugami-springboot-demo-user-api:3.1.0-SNAPSHOT:jar",
         "errorCode" : "USER-1_2",
         "exploitationError" : false,
+        "field" : "user.lastname",
         "message" : "user's lastname required",
         "retryable" : false,
         "statusCode" : 400,
@@ -112,6 +113,7 @@
         "artifact" : "io.inugami.springboot.demo.user:inugami-springboot-demo-user-api:3.1.0-SNAPSHOT:jar",
         "errorCode" : "USER-1_4",
         "exploitationError" : false,
+        "field" : "user.email",
         "message" : "user's email required",
         "retryable" : false,
         "statusCode" : 400,
@@ -494,6 +496,20 @@
         "type" : "jar",
         "version" : "5.3.26"
       }, {
+        "artifactId" : "jackson-datatype-jdk8",
+        "dependencies" : [ ],
+        "groupId" : "com.fasterxml.jackson.datatype",
+        "hash" : "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.5:jar",
+        "type" : "jar",
+        "version" : "2.13.5"
+      }, {
+        "artifactId" : "jackson-module-parameter-names",
+        "dependencies" : [ ],
+        "groupId" : "com.fasterxml.jackson.module",
+        "hash" : "com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.5:jar",
+        "type" : "jar",
+        "version" : "2.13.5"
+      }, {
         "artifactId" : "jackson-databind",
         "dependencies" : [ ],
         "groupId" : "com.fasterxml.jackson.core",
@@ -508,24 +524,10 @@
         "type" : "jar",
         "version" : "2.13.5"
       }, {
-        "artifactId" : "jackson-datatype-jdk8",
-        "dependencies" : [ ],
-        "groupId" : "com.fasterxml.jackson.datatype",
-        "hash" : "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.5:jar",
-        "type" : "jar",
-        "version" : "2.13.5"
-      }, {
         "artifactId" : "jackson-datatype-jsr310",
         "dependencies" : [ ],
         "groupId" : "com.fasterxml.jackson.datatype",
         "hash" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.5:jar",
-        "type" : "jar",
-        "version" : "2.13.5"
-      }, {
-        "artifactId" : "jackson-module-parameter-names",
-        "dependencies" : [ ],
-        "groupId" : "com.fasterxml.jackson.module",
-        "hash" : "com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.5:jar",
         "type" : "jar",
         "version" : "2.13.5"
       }, {
@@ -609,48 +611,6 @@
         "type" : "jar",
         "version" : "3.0.0-SNAPSHOT"
       }, {
-        "artifactId" : "inugami-project-analysis-front-springboot",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami.maven.plugin.analysis.front",
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-springboot:3.2.4:jar",
-        "type" : "jar",
-        "version" : "3.2.4"
-      }, {
-        "artifactId" : "inugami-project-analysis-front-core",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami.maven.plugin.analysis.front",
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-core:3.2.4:jar",
-        "type" : "jar",
-        "version" : "3.2.4"
-      }, {
-        "artifactId" : "inugami-project-analysis-front-api",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami.maven.plugin.analysis.front",
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-api:3.2.4:jar",
-        "type" : "jar",
-        "version" : "3.2.4"
-      }, {
-        "artifactId" : "inugami-project-analysis-maven-plugin-annotations",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami.maven.plugin.analysis",
-        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-annotations:3.2.4:jar",
-        "type" : "jar",
-        "version" : "3.2.4"
-      }, {
-        "artifactId" : "inugami-project-analysis-maven-plugin-api",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami.maven.plugin.analysis",
-        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-api:3.2.4:jar",
-        "type" : "jar",
-        "version" : "3.2.4"
-      }, {
-        "artifactId" : "inugami-project-analysis-front-plugins",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami.maven.plugin.analysis.front",
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.2.4:jar",
-        "type" : "jar",
-        "version" : "3.2.4"
-      }, {
         "artifactId" : "inugami-springboot-demo-user-interfaces-api",
         "dependencies" : [ ],
         "groupId" : "io.inugami.springboot.demo.user",
@@ -694,48 +654,6 @@
         "type" : "jar",
         "version" : "3.1.0-SNAPSHOT"
       }, {
-        "artifactId" : "inugami-project-analysis-front-springboot",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami.maven.plugin.analysis.front",
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-springboot:3.2.5-SNAPSHOT:jar",
-        "type" : "jar",
-        "version" : "3.2.5-SNAPSHOT"
-      }, {
-        "artifactId" : "inugami-project-analysis-front-core",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami.maven.plugin.analysis.front",
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-core:3.2.5-SNAPSHOT:jar",
-        "type" : "jar",
-        "version" : "3.2.5-SNAPSHOT"
-      }, {
-        "artifactId" : "inugami-project-analysis-front-api",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami.maven.plugin.analysis.front",
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-api:3.2.5-SNAPSHOT:jar",
-        "type" : "jar",
-        "version" : "3.2.5-SNAPSHOT"
-      }, {
-        "artifactId" : "inugami-project-analysis-maven-plugin-annotations",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami.maven.plugin.analysis",
-        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-annotations:3.2.5-SNAPSHOT:jar",
-        "type" : "jar",
-        "version" : "3.2.5-SNAPSHOT"
-      }, {
-        "artifactId" : "inugami-project-analysis-maven-plugin-api",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami.maven.plugin.analysis",
-        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-api:3.2.5-SNAPSHOT:jar",
-        "type" : "jar",
-        "version" : "3.2.5-SNAPSHOT"
-      }, {
-        "artifactId" : "inugami-project-analysis-front-plugins",
-        "dependencies" : [ ],
-        "groupId" : "io.inugami.maven.plugin.analysis.front",
-        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.2.5-SNAPSHOT:jar",
-        "type" : "jar",
-        "version" : "3.2.5-SNAPSHOT"
-      }, {
         "artifactId" : "inugami-springboot-demo-user-interfaces-api",
         "dependencies" : [ ],
         "groupId" : "io.inugami.springboot.demo.user",
@@ -757,6 +675,27 @@
         "hash" : "io.inugami:inugami_api:3.2.2:jar",
         "type" : "jar",
         "version" : "3.2.2"
+      }, {
+        "artifactId" : "inugami-project-analysis-front-springboot",
+        "dependencies" : [ ],
+        "groupId" : "io.inugami.maven.plugin.analysis.front",
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-springboot:3.2.5-SNAPSHOT:jar",
+        "type" : "jar",
+        "version" : "3.2.5-SNAPSHOT"
+      }, {
+        "artifactId" : "inugami-project-analysis-front-core",
+        "dependencies" : [ ],
+        "groupId" : "io.inugami.maven.plugin.analysis.front",
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-core:3.2.5-SNAPSHOT:jar",
+        "type" : "jar",
+        "version" : "3.2.5-SNAPSHOT"
+      }, {
+        "artifactId" : "inugami-project-analysis-front-api",
+        "dependencies" : [ ],
+        "groupId" : "io.inugami.maven.plugin.analysis.front",
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-api:3.2.5-SNAPSHOT:jar",
+        "type" : "jar",
+        "version" : "3.2.5-SNAPSHOT"
       }, {
         "artifactId" : "inugami_configuration_tools",
         "dependencies" : [ ],
@@ -792,6 +731,27 @@
         "hash" : "io.inugami:inugami_configuration:3.2.2:jar",
         "type" : "jar",
         "version" : "3.2.2"
+      }, {
+        "artifactId" : "inugami-project-analysis-maven-plugin-annotations",
+        "dependencies" : [ ],
+        "groupId" : "io.inugami.maven.plugin.analysis",
+        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-annotations:3.2.5-SNAPSHOT:jar",
+        "type" : "jar",
+        "version" : "3.2.5-SNAPSHOT"
+      }, {
+        "artifactId" : "inugami-project-analysis-maven-plugin-api",
+        "dependencies" : [ ],
+        "groupId" : "io.inugami.maven.plugin.analysis",
+        "hash" : "io.inugami.maven.plugin.analysis:inugami-project-analysis-maven-plugin-api:3.2.5-SNAPSHOT:jar",
+        "type" : "jar",
+        "version" : "3.2.5-SNAPSHOT"
+      }, {
+        "artifactId" : "inugami-project-analysis-front-plugins",
+        "dependencies" : [ ],
+        "groupId" : "io.inugami.maven.plugin.analysis.front",
+        "hash" : "io.inugami.maven.plugin.analysis.front:inugami-project-analysis-front-plugins:3.2.5-SNAPSHOT:jar",
+        "type" : "jar",
+        "version" : "3.2.5-SNAPSHOT"
       }, {
         "artifactId" : "inugami_monitoring_api",
         "dependencies" : [ ],
@@ -915,7 +875,7 @@
   "gav" : {
     "artifactId" : "inugami-springboot-demo-user-webapp",
     "groupId" : "io.inugami.springboot.demo.user",
-    "scanDate" : "2023-06-17T10:47:25.784473",
+    "scanDate" : "2023-06-17T13:02:51.90392",
     "version" : "3.1.0-SNAPSHOT"
   },
   "issues" : [ {
