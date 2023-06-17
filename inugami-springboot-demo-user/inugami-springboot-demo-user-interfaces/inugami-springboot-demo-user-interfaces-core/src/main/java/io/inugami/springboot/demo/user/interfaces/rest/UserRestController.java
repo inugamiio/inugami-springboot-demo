@@ -25,10 +25,15 @@ public class UserRestController implements UserRestClient {
     public UserDTO getUserById(final long id) {
         return userService.getUserByID(id);
     }
+
+
     // ========================================================================
     // UPDATE
     // ========================================================================
-
+    @Override
+    public UserDTO updateUser(final UserDTO user) {
+        return null;
+    }
     // ========================================================================
     // DELETE
     // ========================================================================

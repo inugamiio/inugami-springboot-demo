@@ -12,6 +12,9 @@ public interface UserRestClient {
     @GetMapping(path = "{id}")
     UserDTO getUserById(@PathVariable final long id);
 
+    @PatchMapping(path = "{id}")
+    UserDTO updateUser(@RequestBody final UserDTO user);
+
     @DeleteMapping(path = "{id}")
     void deleteById(@PathVariable final long id, @RequestParam String email) ;
 }
