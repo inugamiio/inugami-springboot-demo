@@ -77,6 +77,14 @@
             <artifactId>inugami-project-analysis-front-springboot</artifactId>
         </dependency>
 
+
+        <dependency>
+            <groupId>io.inugami</groupId>
+            <artifactId>inugami_commons_spring</artifactId>
+        </dependency>
+
+
+
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>

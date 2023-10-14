@@ -11,8 +11,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import java.time.Clock;
 
 @ComponentScan(basePackages = {
-        "io.inugami.springboot.demo",
-        InugamiMonitoringConfig.INUGAMI_MONITORING_CONFIG
+        InugamiMonitoringConfig.INUGAMI
 })
 @SpringBootApplication
 public class InugamiDemoUser {

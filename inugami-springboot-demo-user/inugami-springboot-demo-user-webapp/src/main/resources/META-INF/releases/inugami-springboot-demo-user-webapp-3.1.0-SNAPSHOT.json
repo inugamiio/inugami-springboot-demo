@@ -884,7 +884,14 @@
     "name" : "issue_7",
     "title" : "juste issue for testing inugami-project-analysis-maven-plugin",
     "url" : "https://github.com/inugamiio/inugami-springboot-demo/issues/7"
-  } ],
+  } ,
+    {
+      "date" : "2023-05-13T13:43:38Z",
+      "labels" : [  "test" ],
+      "name" : "issue_8",
+      "title" : "juste issue for testing inugami-project-analysis-maven-plugin",
+      "url" : "https://github.com/inugamiio/inugami-springboot-demo/issues/8"
+    }],
   "mergeRequests" : [ ],
   "projectDependenciesGraph" : {
     "artifacts" : [ {

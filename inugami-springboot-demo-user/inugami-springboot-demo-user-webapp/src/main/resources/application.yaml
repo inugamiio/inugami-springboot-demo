@@ -67,13 +67,19 @@ springdoc:
     path: "/doc/swagger.html"
 
 inugami:
+  spring:
+    mapstruct:
+      scanner:
+        basePackage: io.inugami
+        enabled: true
   release:
     note:
+      title: Inugami Demo
       custom:
         css:
           enabled: true
           path: "META-INF/css/demo-custom.css"
-      #path: /demo/user/release-note-app/
+      path: /demo/user/release-note-app/
       artifactName: "inugami-springboot-demo-user-webapp.releases"
   monitoring:
     exception:
