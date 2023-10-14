@@ -15,7 +15,21 @@ application:
     activeMq: "tcp://localhost:61616"
     datasource: "jdbc:h2:mem:testdb"
 
-
+io:
+  inugami:
+    spring:
+      mapstruct:
+        scanner:
+          basePackage: io.inugami.springboot.demo.user.infrastructure
+          enabled: true
+    springboot:
+      demo:
+        user:
+          core:
+            service:
+              UserService:
+                getUserByID:
+                  enabled: true
 endpoints:
   health:
     sensitive: false

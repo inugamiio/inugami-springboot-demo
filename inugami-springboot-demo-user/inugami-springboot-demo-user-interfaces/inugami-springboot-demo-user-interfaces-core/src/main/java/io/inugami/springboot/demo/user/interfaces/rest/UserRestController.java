@@ -3,6 +3,7 @@ package io.inugami.springboot.demo.user.interfaces.rest;
 import io.inugami.springboot.demo.user.api.dto.UserDTO;
 import io.inugami.springboot.demo.user.api.service.IUserService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -31,7 +32,7 @@ public class UserRestController implements UserRestClient {
     // UPDATE
     // ========================================================================
     @Override
-    public UserDTO updateUser(final UserDTO user) {
+    public ResponseEntity<UserDTO> updateUser(final UserDTO user) {
         return null;
     }
     // ========================================================================

@@ -26,5 +26,11 @@
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>io.inugami.maven.plugin.analysis</groupId>
+            <artifactId>inugami-project-analysis-maven-plugin-api</artifactId>
+            <version>${io.inugami.maven.plugin.analysis.version}</version>
+        </dependency>
     </dependencies>
 </project>

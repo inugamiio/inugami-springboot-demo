@@ -18,7 +18,7 @@ package io.inugami.springboot.demo.user.infrastructure.service.release.note;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.inugami.api.exceptions.UncheckedException;
-import io.inugami.commons.marshaling.JsonMarshaller;
+import io.inugami.api.marshalling.JsonMarshaller;
 import io.inugami.maven.plugin.analysis.front.api.models.DependenciesCheck;
 import io.inugami.maven.plugin.analysis.front.api.services.DependenciesCheckService;
 

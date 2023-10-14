@@ -7,9 +7,11 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class MapperConfiguration {
-
+/*
     @Bean
     public UserEntityMapper userEntityMapper() {
         return Mappers.getMapper(UserEntityMapper.class);
     }
+
+ */
 }

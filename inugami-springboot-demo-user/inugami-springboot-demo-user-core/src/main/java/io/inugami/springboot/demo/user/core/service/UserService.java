@@ -1,5 +1,6 @@
 package io.inugami.springboot.demo.user.core.service;
 
+import io.inugami.api.feature.Feature;
 import io.inugami.springboot.demo.user.api.dto.UserDTO;
 import io.inugami.springboot.demo.user.api.exception.UserError;
 import io.inugami.springboot.demo.user.api.service.IUserDAO;
@@ -22,6 +23,7 @@ public class UserService implements IUserService {
     // ========================================================================
     // CREATE
     // ========================================================================
+    @Feature
     @Override
     public UserDTO createUser(final UserDTO user) {
         assertNotNull(UserError.USER_DATA_REQUIRED, user);
@@ -44,6 +46,7 @@ public class UserService implements IUserService {
     // ========================================================================
     // READ
     // ========================================================================
+    @Feature
     @Override
     public UserDTO getUserByID(final long id) {
         assertHigher(UserError.USER_INVALID_ID, 0, id);
